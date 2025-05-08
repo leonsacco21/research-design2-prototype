@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Mode vs Dark Mode - Readability Study</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Light Mode vs Dark Mode - Readability Study</h1>
+        <div class="toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider round"></span>
+            </label>
+            <span id="modeLabel">Light Mode</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="reading-section">
+            <h2 id="subtitle">Subtitle</h2>
+            <p id="readingContent">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Vestibulum eget tincidunt enim. In sed erat vel nisi fermentum congue. 
+                Integer malesuada magna nec risus tincidunt, nec vulputate justo cursus. 
+                Suspendisse potenti. Phasellus vel nibh vitae magna malesuada aliquet.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="timer-container">
+            <span id="timer">00:00.00</span>
+            <button id="startButton">Play</button>
+            <button id="stopButton">Stop</button>
+            <button id="resetButton">Reset</button>
+        </div>
+    </footer>       
+
+    <script src="script.js"></script>
+</body>
+</html>
